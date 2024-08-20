@@ -1,0 +1,29 @@
+[font]
+size=13
+
+[font.bold]
+family = "Liberation Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Liberation Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Liberation Mono"
+style = "Italic"
+
+[font.normal]
+family = "Liberation Mono"
+style = "Regular"
+
+
+[cursor.style]
+shape = "Beam"
+blinking = "always"
+
+[cursor.vi_mode_style]
+blinking = "always"
+
+[cursor]
+unfocused_hollow = false
