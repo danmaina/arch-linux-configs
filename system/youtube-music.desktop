@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Youtube Music
+Icon=/home/md/.local/share/chrome-app-icons/youtube_music_icon.png
+Exec=google-chrome-stable --app="https://music.youtube.com"
+Categories=Entertainment
+Terminal=false

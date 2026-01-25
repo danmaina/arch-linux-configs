@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Google Drive
+Icon=/home/md/.local/share/chrome-app-icons/google_drive_icon.png
+Exec=google-chrome-stable --app="https://drive.google.com"
+Categories=Office
+Terminal=false

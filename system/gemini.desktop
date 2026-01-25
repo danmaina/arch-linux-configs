@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Gemini
+Icon=/home/md/.local/share/chrome-app-icons/gemini-icon.png
+Exec=google-chrome-stable --app="https://gemini.google.com"
+Categories=AI
+Terminal=false

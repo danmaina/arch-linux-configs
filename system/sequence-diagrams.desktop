@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Sequence Diagrams
+Icon=/home/md/.local/share/chrome-app-icons/sequence-diagram.png
+Exec=google-chrome-stable --app="https://sequencediagram.org/"
+Categories=Productivity
+Terminal=false
