@@ -1,0 +1,96 @@
+* {
+    font-family: "Inter", "Noto Color Emoji", sans-serif;
+    font-weight: 500;
+    font-size: 11pt;
+}
+
+window#waybar {
+    box-shadow: none;
+    background-color: rgba(30, 30, 46, 0.5);
+    border-right: 1.2px solid #e0dd26;
+    border-left: 1.2px solid #e0dd26;
+    border-bottom: 1.2px solid #e0dd26;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.modules-right {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#pulseaudio {
+    color: #2699e0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1.5px dotted #e0dd26;
+    border-left: 1.5px dotted #e0dd26;
+}
+
+#power-profiles-daemon {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1.5px dotted #e0dd26;
+}
+
+#cpu {
+    color: #e026da;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1.5px dotted #e0dd26;
+}
+
+#memory {
+    color: #aee026;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1.5px dotted #e0dd26;
+}
+
+#temperature {
+    color: #e08f26;
+    padding-left: 10px;
+}
+
+.modules-center {
+    /* border: 1.5px dotted #e0dd26; */
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#clock {
+    color: #ffffff;
+    border-right: 1.5px dotted #e0dd26;
+    border-left: 1.5px dotted #e0dd26;
+    border-bottom: 1.5px dotted #e0dd26;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tray {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1.5px dotted #e0dd26;
+}
+
+#workspaces {
+    border-right: 1.5px dotted #e0dd26;
+}
+
+#workspaces button {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+/* Optional: Highlight the active workspace */
+#workspaces button.active {
+    border: 1.5px solid #e02626;
+}
+
+/* Optional: Remove the default hover effect/underline if it interferes */
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
