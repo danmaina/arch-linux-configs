@@ -75,10 +75,6 @@ window#waybar {
     border-right: 1.5px dotted #e0dd26;
 }
 
-#workspaces {
-    border-right: 1.5px dotted #e0dd26;
-}
-
 #workspaces button {
     color: #FFFFFF;
     background-color: transparent;
