@@ -1,10 +1,13 @@
+# No need to limit the nvidia power limit. Just limit the maximum clock speed.
+# This service is no longer necessary but it is a good to keep reference for any future works
+# Minimum allowable Power Limits for Nvidia RTX 2060 Super are 125W and 175W
 [Unit]
-Description=Set NVIDIA GPU Power Limit to 125
+Description=Set NVIDIA GPU Power Limit to 175
 After=nvidia-persistenced.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/nvidia-smi -pl 125
+ExecStart=/usr/bin/nvidia-smi -pl 175
 
 [Install]
 WantedBy=multi-user.target
