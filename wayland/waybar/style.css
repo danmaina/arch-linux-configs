@@ -82,7 +82,7 @@ window#waybar {
 
 /* Optional: Highlight the active workspace */
 #workspaces button.active {
-    border: 1.5px solid #e02626;
+    border: 1.5px dashed #e02626;
 }
 
 /* Optional: Remove the default hover effect/underline if it interferes */
