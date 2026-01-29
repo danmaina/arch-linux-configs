@@ -1,0 +1,15 @@
+[Unit]
+Description=Apply NVIDIA Stability Limits with clock speed limited to a maximum of 1470MHz
+# Ensure this runs after the driver and persistence daemon are ready
+After=nvidia-persistenced.service
+Wants=nvidia-persistenced.service
+
+[Service]
+Type=oneshot
+# Lock GPU Clock to 1700MHz (the stable ceiling you found) and reduce power consumption to a max odf 125W
+ExecStart=/usr/bin/nvidia-smi -pl 125
+ExecStart=/usr/bin/nvidia-smi -lgc 0,1470
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
