@@ -8,7 +8,7 @@ Wants=nvidia-persistenced.service
 Type=oneshot
 # Lock GPU Clock to 1700MHz (the stable ceiling you found) and reduce power consumption to a max odf 125W
 ExecStart=/usr/bin/nvidia-smi -pl 125
-ExecStart=/usr/bin/nvidia-smi -lgc 0,1470
+ExecStart=/usr/bin/nvidia-smi -lgc 0,1270
 RemainAfterExit=yes
 
 [Install]
