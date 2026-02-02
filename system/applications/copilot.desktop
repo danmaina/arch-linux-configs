@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Microsoft Copilot
-Icon=/home/md/.local/share/chrome-app-icons/copilot-icon.png
+Icon=/home/md/.local/share/chrome-app-icons/copilot_icon.png
 Exec=google-chrome-stable --app="https://copilot.microsoft.com"
 Categories=AI
 Terminal=false

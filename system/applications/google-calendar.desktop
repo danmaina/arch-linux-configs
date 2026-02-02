@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Google Calendar
+Icon=/home/md/.local/share/chrome-app-icons/google_calendar_icon.png
+Exec=google-chrome-stable --app="https://calendar.google.com"
+Categories=Calendar
+Terminal=false
