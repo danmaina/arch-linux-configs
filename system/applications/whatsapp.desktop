@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Whatsapp
+Icon=/home/md/.local/share/chrome-app-icons/whatsapp_icon.png
+Exec=google-chrome-stable --app="https://web.whatsapp.com"
+Categories=Messaging
+Terminal=false
