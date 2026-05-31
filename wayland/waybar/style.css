@@ -54,7 +54,6 @@ window#waybar {
 }
 
 .modules-center {
-    /* border: 1.5px dotted #e0dd26; */
     border-radius: 6px;
     padding-left: 10px;
     padding-right: 10px;
