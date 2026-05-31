@@ -1,0 +1,2 @@
+// Policy to disable local llm - File placed in /etc/opt/chrome/policies/managed/disable-local-llm.json
+{"GenAILocalFoundationalModelSettings":1}
