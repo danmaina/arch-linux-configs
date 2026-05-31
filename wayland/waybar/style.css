@@ -20,12 +20,19 @@ window#waybar {
     padding-right: 10px;
 }
 
+#battery {
+    color: #2edaba;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1.5px dotted #e0dd26;
+    border-left: 1.5px dotted #e0dd26;
+}
+
 #pulseaudio {
     color: #2699e0;
     padding-left: 10px;
     padding-right: 10px;
     border-right: 1.5px dotted #e0dd26;
-    border-left: 1.5px dotted #e0dd26;
 }
 
 #power-profiles-daemon {

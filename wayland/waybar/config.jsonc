@@ -13,6 +13,7 @@
         "tray"
     ],
     "modules-right": [
+        "battery",
         "pulseaudio",
         "power-profiles-daemon",
         "cpu",
@@ -91,5 +92,22 @@
             ]
         },
         "on-click": "pwvucontrol"
+    },
+    "battery": {
+        "bat": "BAT0",
+        "adapter": "AC",
+       // "interval": "60",
+        "real-time": true,
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-plugged": "  {capacity}%",
+        "format-full": "  {capacity}%",
+        "format-alt": "{icon}  {time}",
+        "format-icons": ["", "", "", "", ""]
     }
 }
