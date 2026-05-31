@@ -35,6 +35,24 @@ window#waybar {
     border-right: 1.5px dotted #e0dd26;
 }
 
+#wireplumber,
+#pulseaudio.source {
+    color: #2699e0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Give the left side a bit more breathing room */
+#wireplumber {
+    padding-left: 10px;
+}
+
+/* Put the dotted yellow border strictly on the right side of the microphone icon */
+#pulseaudio.source {
+    padding-right: 10px;
+    border-right: 1.5px dotted #e0dd26;
+}
+
 #power-profiles-daemon {
     padding-left: 10px;
     padding-right: 10px;

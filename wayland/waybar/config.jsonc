@@ -91,12 +91,13 @@
                 ""
             ]
         },
+        "ignored-sinks": ["Easy Effects Sink"],
         "on-click": "pwvucontrol"
     },
+
     "battery": {
         "bat": "BAT0",
         "adapter": "AC",
-       // "interval": "60",
         "real-time": true,
         "states": {
             "good": 95,
