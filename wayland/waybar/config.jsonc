@@ -28,7 +28,7 @@
     },
     "clock": {
         "interval": 1,
-        "format": "📅  |  {:%d-%m-%Y  |  %H:%M:%S}",
+        "format": "📅  |  {:%A | %d-%B-%Y  |  %H:%M:%S}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode": "month",
@@ -61,17 +61,6 @@
             "",
             ""
         ]
-    },
-    "power-profiles-daemon": {
-        "format": "<span size='13pt'>{icon}</span>  {profile}",
-        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-        "tooltip": true,
-        "format-icons": {
-            "default": "",
-            "performance": "",
-            "balanced": "",
-            "power-saver": ""
-        }
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
